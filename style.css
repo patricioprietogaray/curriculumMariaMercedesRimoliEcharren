@@ -3,14 +3,14 @@
 /* fuente personalizada Maiandra GD */
 @font-face {
     font-family: 'Maiandra GD Regular';
-    src: url('./assets/24358_MAIAN.ttf') format('truetype');
+    src: url('./assets/fonts/24358_MAIAN.ttf') format('truetype');
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Calibri';
-    src: url('./assets/CALIBRIZ.TTF') format('truetype');
+    src: url('./assets/fonts/CALIBRIZ.TTF') format('truetype');
 }
 
 * {
