@@ -1,0 +1,144 @@
+/* tipografía */
+
+/* fuente personalizada Maiandra GD */
+@font-face {
+    font-family: 'Maiandra GD Regular';
+    src: url('./assets/24358_MAIAN.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('./assets/CALIBRIZ.TTF') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(189, 110, 110); */
+    /* display: block; */
+    scroll-behavior: smooth;
+}
+
+body {background-color: #1c1b17;}
+
+body > header, footer {
+    background-color: #1c1b17;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 230px;
+}
+
+#nombre {
+    float: left;
+    text-align: center;
+    padding: 50px;
+    width: 60%;
+    margin-top: -10px;
+    margin-left: 0px;
+    height: 100px;
+    font-family: 'Maiandra GD Regular';
+    font-size: 24px;
+    color: #ffffff;
+    /* background-color: blue; */
+}
+
+#logo {
+    float: right;
+    margin-top: 20px;
+    margin-right: 17px;
+    width: 28%;
+    /* padding-right: 30px; */
+    /* padding: 30px; */
+    /* background-color: chocolate; */
+}
+
+#menues {
+    background-color: #1c1b17;
+    padding: 20px;
+    cursor: pointer;
+    
+    
+}
+ 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #9cc42f;
+    /* background-color: #1c1b17; */
+}
+
+
+#menues > ul > li {
+    font-family: 'Calibri';
+    display: inline;
+    /* width: 100%; */
+    /* height: 100px; */
+    background-color: #1c1b17;
+    color: #9cc42f;
+    /* margin-top: 50px; */
+    /* padding-top: 25px; */
+    margin-inline: 0px;
+    padding: 20px 50px;
+    /* border-radius: 31px 10px 65px 15px; */
+    /* border-image: url('./assets/protegernos.svg'); */
+    transition: 1s;
+}
+/* hover es cuando mouse sobre el boton */
+#menues > ul > li:hover {
+    background-color: #9cc42f;
+    color: #1c1b17;
+}
+
+/* sobre en el boton con visited */
+#menues > ul > li:visited, a:visited {
+    color: #0e861c;
+}
+
+#menues > ul > li:active, a:active {
+    color: #fcfcfc;
+    
+}
+
+hgroup > h2, footer > h2 {
+    color: #9cc42f;
+    font-family: 'Maiandra GD Regular';
+    font-size: 34px;
+}
+
+#perfil > p, footer>p {
+    color: #ffffff;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
+table {
+    font-family: 'Calibri';
+    color:#ffffff;
+    font-size: 20px;
+}
+
+th {
+    font-weight: 600;
+    background-color: #65Ab35;
+    color: #ffffff;
+    height: 35px;
+}
+
+.impar {
+    color: #ffffff;
+}
+
+.par {
+    color: #9cc42f;
+}
+
+footer > p > strong {
+    color:#35f84c;
+}
