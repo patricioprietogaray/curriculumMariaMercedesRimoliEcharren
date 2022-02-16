@@ -22,14 +22,14 @@
     box-sizing: border-box;
 }
 
-body {background-color: #1c1b17;}
+/* body {background-color: #1c1b17;} */
 
-body > header {
+/* body > header {
     width: 100%;
     height: 150px;
     background-color: #1c1b17;
     opacity: 0.9;
-}
+} */
 
 body > header {
     /* background-color: #1c1b17; */
@@ -47,7 +47,7 @@ body > header {
     z-index: 10;
     
     /* para dejar quieto el header */
-    position: fixed;
+    /* position: fixed; */
     
 }
 
@@ -56,8 +56,8 @@ body > header {
     text-align: center;
     padding: 50px;
 
-    width: 70%;
-    /* width: 100%; */
+    /* width: 70%; */
+    width: 100%;
 
 
     /* height: 40%; */
@@ -67,7 +67,8 @@ body > header {
     font-family: 'Maiandra GD Regular';
     font-size: 24px;
 
-    color: #ffffff;
+
+        /* color: #ffffff; */
     
     /* background-color: blue; */
 }
@@ -81,7 +82,7 @@ body > header {
     height: 150px;
     /* width: 550px; */
     /* height: 340px; */
-    padding-right: 30px;
+    /* padding-right: 30px; */
     padding: 40px;
 
     /* background-color: chocolate; */
@@ -159,83 +160,89 @@ a:link {
 }
 
 hgroup > h2, footer > h2 {
-    /* color: 1c1b17; */
+    color: 1c1b17;
+    text-align: center;
 
-    color: #9cc42f;
+    /* color: #9cc42f; */
     font-family: 'Maiandra GD Regular';
     font-size: 34px;
 }
 
-#perfil > p, footer>p {
+#perfil > p, footer>p, p {
     /* color: #ffffff; */
         color: 1c1b17;
     font-family: 'Calibri';
     font-size: 20px;
+    text-align: justify;
+}
+
+#contacto > p {
+    text-align: center;
 }
 
 table {
     font-family: 'Calibri';
-    color:#ffffff;
-    /* color: 1c1b17; */
+    /* color:#ffffff; */
+    color: 1c1b17;
     font-size: 20px;
 }
 
 th {
     font-weight: 600;
     /* background-color: #65Ab35; */
-    color: #ffffff;
-    /* color: 1c1b17; */
+    /* color: #ffffff; */
+    color: 1c1b17;
     height: 35px;
 }
 
 .impar {
-    color: #ffffff;
-    /* color: 1c1b17; */
+    /* color: #ffffff; */
+    color: 1c1b17;
 }
 
 .par {
-    color: #9cc42f;
-    /* color: 1c1b17; */
+    /* color: #9cc42f; */
+    color: 1c1b17;
 }
 
 footer {
-    color: #ffffff;
-    /* color: 1c1b17; */
+    /* color: #ffffff; */
+    color: 1c1b17;
 }
 
 footer > p > strong {
-    color:#35f84c;
-    /* color: 1c1b17; */
+    /* color:#35f84c; */
+    color: 1c1b17;
 }
 
 
 
 
 /* cuando posiciono el mouse encima */
-/* a:hover {
+a:hover {
     background-color: red;
     padding: 1rem 2.5rem;
-} */
+}
 
-/* #menues > ul > li {
+#menues > ul > li {
     background-color: red;
     padding: 1rem 2.5rem;
     /* font-weight: 800; */
-/* }  */
+}
 
-/* .subMenuPerfil { */
+.subMenuPerfil {
     /* para no ocupar el espacio del 
     del menu principal */
-    /* position:absolute; */
+    position:absolute;
     /* acomodarlo debajo del menu
     principal */
-    /* display: flex; */
+    display: flex;
     /* para que esten las opciones
     una debajo de otra */
-    /* flex-direction: column; */
+    flex-direction: column;
     /* para pegarlo a la etiqueta
     de menu que corresponde */
-    /* left: 0; */
+    left: 0;
     
 
-/* } */
+}
