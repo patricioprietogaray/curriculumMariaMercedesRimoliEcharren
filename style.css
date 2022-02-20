@@ -208,6 +208,10 @@ footer > p > strong {
     /* color: 1c1b17; */
 }
 
+tr:hover {
+    color: #1c1b17;
+    background-color: #9cc42f;
+}
 
 
 
